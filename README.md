@@ -86,12 +86,12 @@ Open two terminals and run the backend and frontend simultaneously. The Angular 
 ### Public Page
 > Landing page accessible to anyone, with features overview and sample credentials.
 >
-> ![Public Page](screenshots/public-page.png)
+> ![Public Page](screenshots/home.png)
 
 ### Login Page
 > Login form with reactive form validation and error handling.
 >
-> ![Login Page](screenshots/login-page.png)
+> ![Login Page](screenshots/login.png)
 
 ### Dashboard
 > Secured page showing user info and session details. Only accessible to authenticated users.
@@ -101,7 +101,7 @@ Open two terminals and run the backend and frontend simultaneously. The Angular 
 ### Currency Converter
 > Select source/destination currencies, enter an amount, and view real-time conversion results.
 >
-> ![Currency Converter](screenshots/currency-converter.png)
+> ![Currency Converter](screenshots/convert.png)
 
 ## Design Decisions
 
