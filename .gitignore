@@ -1,0 +1,27 @@
+# Build results
+bin/
+obj/
+dist/
+*.user
+*.suo
+.vs/
+*.cache
+
+# Node
+node_modules/
+.angular/
+.npm/
+
+# IDE
+.idea/
+*.sln.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+*.env
+
+# Agent tooling
+.mimocode/
