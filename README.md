@@ -1,6 +1,6 @@
 # Currency Exchange Platform
 
-A full-stack web application built with ASP.NET Core 8 Web API and Angular 18 featuring JWT authentication and real-time currency conversion.
+A full-stack web application built with ASP.NET Core 10 Web API and Angular 18 featuring JWT authentication and real-time currency conversion.
 
 ## Features
 
@@ -18,7 +18,7 @@ A full-stack web application built with ASP.NET Core 8 Web API and Angular 18 fe
 
 ## Tech Stack
 
-- **Backend:** ASP.NET Core 8 Web API, JWT Bearer Authentication, Memory Caching
+- **Backend:** ASP.NET Core 10 Web API, JWT Bearer Authentication, Memory Caching
 - **Frontend:** Angular 18, Reactive Forms, Route Guards, HTTP Interceptors
 - **Currency API:** [ExchangeRate-API](https://www.exchangerate-api.com/)
 
@@ -44,7 +44,7 @@ A full-stack web application built with ASP.NET Core 8 Web API and Angular 18 fe
 ## Setup Instructions
 
 ### Prerequisites
-- .NET 8 SDK
+- .NET 10 SDK
 - Node.js 18+ and npm
 
 ### Backend
@@ -83,12 +83,25 @@ Open two terminals and run the backend and frontend simultaneously. The Angular 
 
 ## Application Screenshots
 
-> Add screenshots here after running the application.
+### Public Page
+> Landing page accessible to anyone, with features overview and sample credentials.
+>
+> ![Public Page](screenshots/public-page.png)
 
-1. **Public Page** — Landing page with features and sample credentials
-2. **Login Page** — Form with validation and error handling
-3. **Dashboard** — User info and quick links
-4. **Currency Converter** — Select currencies, enter amount, view conversion
+### Login Page
+> Login form with reactive form validation and error handling.
+>
+> ![Login Page](screenshots/login-page.png)
+
+### Dashboard
+> Secured page showing user info and session details. Only accessible to authenticated users.
+>
+> ![Dashboard](screenshots/dashboard.png)
+
+### Currency Converter
+> Select source/destination currencies, enter an amount, and view real-time conversion results.
+>
+> ![Currency Converter](screenshots/currency-converter.png)
 
 ## Design Decisions
 

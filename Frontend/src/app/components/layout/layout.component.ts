@@ -70,6 +70,24 @@ import { AuthService } from '../../services/auth.service';
       margin: 0 auto;
       padding: 2rem;
     }
+    @media (max-width: 768px) {
+      .navbar {
+        padding: 0 1rem;
+        flex-wrap: wrap;
+        height: auto;
+        gap: 0.5rem;
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+      }
+      .nav-links {
+        gap: 0.75rem;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .container {
+        padding: 1rem;
+      }
+    }
   `]
 })
 export class LayoutComponent {

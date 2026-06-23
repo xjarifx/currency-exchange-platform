@@ -158,6 +158,14 @@ import { AuthService } from '../../services/auth.service';
     .login-footer a:hover {
       text-decoration: underline;
     }
+    @media (max-width: 768px) {
+      .login-page {
+        padding: 1rem;
+      }
+      .login-card {
+        padding: 1.5rem;
+      }
+    }
   `]
 })
 export class LoginComponent {

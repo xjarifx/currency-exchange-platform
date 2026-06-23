@@ -143,6 +143,25 @@ import { RouterLink } from '@angular/router';
       border-radius: 4px;
       font-family: monospace;
     }
+    @media (max-width: 768px) {
+      .hero {
+        padding: 2rem 1rem;
+      }
+      h1 {
+        font-size: 1.75rem;
+      }
+      .subtitle {
+        font-size: 1.05rem;
+      }
+      .features {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+      .credentials-info {
+        display: block;
+        width: 100%;
+      }
+    }
   `]
 })
 export class PublicComponent {}

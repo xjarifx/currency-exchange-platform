@@ -237,6 +237,24 @@ import { Currency, ConversionResponse } from '../../models/currency.model';
       padding: 2rem;
       color: #616161;
     }
+    @media (max-width: 768px) {
+      .form-row {
+        flex-direction: column;
+        gap: 0;
+      }
+      .swap-icon {
+        margin: 0.5rem auto;
+      }
+      .converter-card {
+        padding: 1.25rem;
+      }
+      .result-display {
+        padding: 1rem;
+      }
+      .result-converted {
+        font-size: 1.35rem;
+      }
+    }
   `]
 })
 export class CurrencyConverterComponent implements OnInit {

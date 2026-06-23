@@ -120,6 +120,14 @@ import { CurrencyService } from '../../services/currency.service';
     .btn-link:hover {
       text-decoration: underline;
     }
+    @media (max-width: 768px) {
+      .stats-grid {
+        grid-template-columns: 1fr;
+      }
+      .welcome-section h1 {
+        font-size: 1.5rem;
+      }
+    }
   `]
 })
 export class DashboardComponent implements OnInit {
